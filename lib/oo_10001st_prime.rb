@@ -8,7 +8,7 @@ class Prime
   end 
   
   def number
-    
+    prime_number_for(@number)
   end
 
 end 
