@@ -5,6 +5,7 @@ class Prime
   
   def initialize(input)
     @number = input
+  end
   
   def number
     prime_array = []
