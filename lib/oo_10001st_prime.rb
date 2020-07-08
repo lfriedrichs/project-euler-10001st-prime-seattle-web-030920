@@ -1,9 +1,9 @@
 # Implement your object-oriented solution here!
-require 'prime' 
+require './10001st_prime.rb' 
 
 class Prime 
   
-  def new(input) 
+  def initialize(input) 
     @number = input 
   end 
   
