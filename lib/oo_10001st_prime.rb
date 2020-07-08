@@ -3,8 +3,8 @@ require 'prime'
 
 class Prime 
   
-  def new(number) 
-    @number = number 
+  def new(input) 
+    @number = input 
   end 
   
   def number
