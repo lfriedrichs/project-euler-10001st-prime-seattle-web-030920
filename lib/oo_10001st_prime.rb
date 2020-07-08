@@ -3,6 +3,14 @@ require 'prime'
 
 class Prime 
   
+  def initialize
+    @number = 0 
+  end
+  
+  def new(input) 
+    @number = input 
+  end
+  
   def number
     prime_array = []
   Prime.each(@number ** @number) do |prime|
