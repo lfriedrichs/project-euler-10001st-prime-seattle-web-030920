@@ -1,5 +1,5 @@
 # Implement your object-oriented solution here!
-import './10001st_prime' 
+import './10001st_prime.rb' 
 
 class Prime 
   
