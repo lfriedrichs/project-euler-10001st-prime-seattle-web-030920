@@ -3,7 +3,7 @@ require 'prime'
 
 class Prime 
   
-  def initalize(number) 
+  def new(number) 
     @number = number 
   end 
   
