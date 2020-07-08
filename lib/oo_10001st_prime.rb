@@ -3,11 +3,8 @@ require 'prime'
 
 class Prime 
   
-
-  
-  def new(input) 
-    @number = input 
-  end
+  def initialize(input)
+    @number = input
   
   def number
     prime_array = []
