@@ -1,7 +1,7 @@
 # Implement your object-oriented solution here!
 require 'prime' 
 
-class PrimeNumber < Prime
+class PrimeNumber
   
   def initialize(input)
     @number = input
