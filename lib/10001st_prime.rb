@@ -1,4 +1,6 @@
 # Implement your procedural solution here!
+require 'prime' 
+
 def prime_number_for(number) 
   Prime.each(number ** number) do |prime|
     prime_array << prime
