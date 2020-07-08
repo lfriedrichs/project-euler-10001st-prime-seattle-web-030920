@@ -3,7 +3,7 @@ require './10001st_prime.rb'
 
 class Prime 
   
-  def initalize(input) 
+  def initialize(input) 
     @number = input 
   end 
   
